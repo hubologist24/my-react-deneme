@@ -16,6 +16,8 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
       readOnlyUrls: {
         [BSCTestnet.chainId]: "https://data-seed-prebsc-1-s1.binance.org:8545/"
       },
+      refresh: 5,//defaut 1 5 block da bir refresh liyor
+      gasLimitBufferPercentage: 10, // The percentage by which the transaction may exceed the estimated gas limit.
     }}>
       <MantineProvider withGlobalStyles withNormalizeCSS>
         <App />
