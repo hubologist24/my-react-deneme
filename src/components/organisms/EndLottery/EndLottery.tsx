@@ -14,7 +14,7 @@ const EndLottery = () => {
     /*const contractAddress = "0x17c932216dfB1cF17f2BFF5812BeB886586e41C4"
     const ABI = new Interface(abi)*/
 
-    const [activateError, setActivateError] = useState('')
+    const [activateError, setActivateError] = useState<string | undefined>('')
 
 
     const { state, send } = useContractFunction(lottery_contract, "end_lottery")
