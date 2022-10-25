@@ -2,6 +2,7 @@
   "name": "my-react-deneme",
   "private": true,
   "version": "0.0.0",
+  "home": "https://hubologist24.github.io/my-react-deneme/",
   "type": "module",
   "scripts": {
     "dev": "vite",
