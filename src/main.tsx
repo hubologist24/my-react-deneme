@@ -5,6 +5,7 @@ import './index.css'
 import { DAppProvider, Goerli, BSCTestnet, BSC } from "@usedapp/core"
 import { getDefaultProvider } from 'ethers'
 import { MantineProvider } from '@mantine/core'
+import "bootstrap/dist/css/bootstrap.min.css"
 // [Goerli.chainId]: getDefaultProvider('goerli')
 //https://docs.bscscan.com/misc-tools-and-utilities/public-rpc-nodes
 
